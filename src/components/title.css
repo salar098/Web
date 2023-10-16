@@ -1,0 +1,29 @@
+.title::after {
+    content: "";
+    position:  absolute;
+    display: flex;
+    top: auto;
+    left: 0;
+    bottom: 0;
+    height: 5px;
+    border-radius: 100px;
+    width: 35px;
+    background: #037fff;
+    padding-top: 5px;
+}
+
+.title::before {
+    content: "";
+    position: absolute;
+    display: flex;
+    top: auto;
+    left: 0;
+    bottom: 0;
+    height: 5px;
+    border-radius: 100px;
+    width: 100px;
+    background: rgba(3, 127, 255, 0.3);
+    padding-top: 5px;
+
+
+}
